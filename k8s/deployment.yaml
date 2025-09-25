@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: <ECR_URI>:latest
+        image: 621770702368.dkr.ecr.ap-south-1.amazonaws.com/my-eks-app:latest
         ports:
         - containerPort: 3000
